@@ -11,16 +11,16 @@ EURUSD Package is a Python package for analyzing and forecasting the EUR/USD exc
 
 ## 📚 Table of Contents
 
-- [Installation](#installation)
-- [Features](#features)
-- [Usage](#usage)
-  - [Data Loading](#data-loading)
-  - [Data Analysis](#data-analysis)
-  - [Forecasting](#forecasting)
-- [Contributors](#contributors)
-- [Contributing](#contributing)
-- [License](#license)
-- [Support](#support)
+- Installation
+- Features
+- Usage
+  - Data Loading
+  - Data Analysis
+  - Forecasting
+- Contributors
+- Contributing
+- License
+- Support
 
 ## ⚙️ Installation
 
