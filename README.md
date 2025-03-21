@@ -17,6 +17,7 @@ EURUSD Package is a Python package for analyzing and forecasting the EUR/USD exc
   - [Data Loading](#data-loading)
   - [Data Analysis](#data-analysis)
   - [Forecasting](#forecasting)
+- [Contributors](#contributors)
 - [Contributing](#contributing)
 - [License](#license)
 - [Support](#support)
@@ -69,6 +70,14 @@ from eurusd_package.analyzeForecast import AnalyzeForecast
 forecast = AnalyzeForecast(data)
 forecast.perform_forecasting()
 ```
+
+## 👥 Contributors
+
+This project was developed by the following individuals of `Group K`:
+
+- [Sumiya Akter Nisher](https://github.com/nisher07) 
+- [Nandita Chakrobortty](https://github.com/Tithi07) 
+- [Apu Kumar Saha](https://github.com/apumrk) 
 
 ## 🤝 Contributing
 
