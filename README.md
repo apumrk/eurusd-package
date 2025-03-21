@@ -31,6 +31,7 @@ pip install git+https://github.com/apumrk/eurusd-package
 ```
 Ensure your environment is set up with Python 3.6+ to use the package effectively.
 
+
 ## 🌟 Features
 
 - 📂 **Data Loader**: Simplifies the process of loading and preprocessing EUR/USD exchange rate data.
@@ -42,7 +43,13 @@ Ensure your environment is set up with Python 3.6+ to use the package effectivel
 
 ### 📂 Data Loading
 
-To load your data:
+To ensure the `DataLoader` can successfully load your data, please follow these steps:
+
+1. **Create a Directory**: Navigate to the working directory of your project where your scripts or Jupyter notebooks are located. Inside this directory, create a new folder named `data`.
+
+2. **Add Data File**: Place your data file, which by default should be named `EURUSD_data.csv`, into the `data` folder. If you use a different filename or have multiple data sets, make sure to specify the correct file name when initializing the `DataLoader`.
+
+3. **Initialize DataLoader**: When you set up `DataLoader` in your script or notebook, it will automatically look for the data file in the `data` subdirectory. Here’s how you can initialize the `DataLoader`:
 
 ```python
 from eurusd_package.data_loader import DataLoader
