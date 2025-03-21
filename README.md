@@ -13,7 +13,7 @@
 ## Installation
 
 ```console
-pip install eurusd-package
+pip install git+https://github.com/apumrk/eurusd-package
 ```
 
 ## License
