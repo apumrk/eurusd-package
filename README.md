@@ -17,6 +17,7 @@ EURUSD Package is a Python package for analyzing and forecasting the EUR/USD exc
   - Data Loading
   - Data Analysis
   - Forecasting
+- View in Google Colab
 - Contributors
 - Contributing
 - License
@@ -77,6 +78,11 @@ from eurusd_package.analyzeForecast import AnalyzeForecast
 forecast = AnalyzeForecast(data)
 forecast.perform_forecasting()
 ```
+## 🔗 View in Google Colab
+
+Due to the size and complexity of the Jupyter Tutorial notebook, it is hosted on Google Colab for better accessibility and interactive experience. You can view and run the notebook by following this link:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ul4zb0sHtGhrSawCNCawKKDxeq3n_m_X?usp=sharing)
 
 ## 👥 Contributors
 
