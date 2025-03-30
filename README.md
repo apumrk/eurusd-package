@@ -1,7 +1,6 @@
 # 📌 EURUSD Package
 
 [![PyPI - Version](https://img.shields.io/pypi/v/eurusd-package.svg)](https://pypi.org/project/eurusd-package)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/eurusd-package.svg)](https://pypi.org/project/eurusd-package)
 
 ---
 ## 📖 Overview
@@ -12,11 +11,13 @@ EURUSD Package is a Python package for analyzing and forecasting the EUR/USD exc
 ## 📚 Table of Contents
 
 - Installation
+- Dataset Overview
 - Features
 - Usage
   - Data Loading
   - Data Analysis
   - Forecasting
+- View in Google Colab
 - Contributors
 - Contributing
 - License
@@ -30,7 +31,22 @@ Install the latest version of EURUSD Package directly from the GitHub repository
 pip install git+https://github.com/apumrk/eurusd-package
 ```
 Ensure your environment is set up with Python 3.6+ to use the package effectively.
+## 🗂 Dataset Overview
 
+**Source:** [Historical EUR/USD exchange rate data (2000–2025)](https://www.kaggle.com/datasets/saifansariai/euro-usd-price-2001-to-2025)
+
+**Frequency:** Daily  
+**Rows:** 11,284   
+**Columns:** 7   
+**Format:** CSV  
+**Columns:**
+- **Date** – Date of recorded exchange rate (Format: DD-MM-YYYY)
+- **Price** – Closing price of EUR/USD
+- **Open** – Opening price
+- **High** – Highest price of the day
+- **Low** – Lowest price of the day
+- **Vol.** – Volume (all values are NaN)
+- **Change %** – Percent change from previous day (as string with % sign)
 
 ## 🌟 Features
 
@@ -77,6 +93,11 @@ from eurusd_package.analyzeForecast import AnalyzeForecast
 forecast = AnalyzeForecast(data)
 forecast.perform_forecasting()
 ```
+## 🔗 View in Google Colab
+
+Due to the size and complexity of the Jupyter Tutorial notebook, it is hosted on Google Colab for better accessibility and interactive experience. You can view and run the notebook by following this link:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ul4zb0sHtGhrSawCNCawKKDxeq3n_m_X?usp=sharing)
 
 ## 👥 Contributors
 
