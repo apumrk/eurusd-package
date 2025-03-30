@@ -93,6 +93,8 @@ from eurusd_package.analyzeForecast import AnalyzeForecast
 forecast = AnalyzeForecast(data)
 forecast.perform_forecasting()
 ```
+
+For a full walkthrough, check the [Tutorial_lite.ipynb](https://github.com/apumrk/eurusd-package/blob/main/Tutorial_lite.ipynb) notebook in this repo.
 ## 🔗 View in Google Colab
 
 Due to the size and complexity of the Jupyter Tutorial notebook, it is hosted on Google Colab for better accessibility and interactive experience. You can view and run the notebook by following this link:
